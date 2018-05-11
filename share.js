@@ -1,5 +1,5 @@
-axios.post('http://192.168.200.52:3002/wx/jsSdk', {
-    url: 'http://wx.webcodelance.cn/123'
+axios.post('wwww.webcodelance.cn/wx/jsSdk', {
+    url: location.href
 }).then(function (data) {
     var wxData = data.data.data;
 
