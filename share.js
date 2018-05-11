@@ -1,4 +1,4 @@
-axios.post('wwww.webcodelance.cn/wx/jsSdk', {
+axios.post('http://www.webcodelance.cn/wx/jsSdk', {
     url: location.href
 }).then(function (data) {
     var wxData = data.data.data;
